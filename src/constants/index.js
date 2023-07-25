@@ -5,24 +5,23 @@ import {
   web,
   javascript,
   typescript,
-  html,
   css,
   reactjs,
-  redux,
-  tailwind,
+  flask,
+  sql,
   nodejs,
   mongodb,
+  golang,
   git,
-  figma,
+  php,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  codeseven,
+  codeseven_flutter,
+  coldspray,
+  flutter,
+  niroggyan,
+  truminds,
+  zomato
 } from "../assets";
 
 export const navLinks = [
@@ -54,15 +53,55 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Blogs and Writing",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Flutter",
+    icon: flutter,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Three JS",
+    icon: golang,
+  },
+  {
+    name: "php",
+    icon: php,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: flask,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "MySQL",
+    icon: sql,
   },
   {
     name: "CSS 3",
@@ -72,97 +111,44 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Data Analyst",
+    company_name: "NirogGyan",
+    icon: niroggyan,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2020 - Sep 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Diagnosed their market expansion possibilities into the SAARC countries after the established themselves well in India.",
+      "Research included in-depth study and analysis of premium healthcare markets, life insurance subsidies, healthcare infrastructure",
+      "Used E-views and python modelling to explore possibility of market behavior and expansion results",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Frontend Developer",
+    company_name: "Truminds",
+    icon: truminds,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "May 2022 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Built a Spatial solution SDK to onload jpg/dwg files representing floor layouts in Canvas over a website and build floor plans with electrical devices displayed and associated control methods",
+      "ReactJS library frameworks: GoJS, integrtr diagram, NextJS, React-redux employed",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on their website counterpart to build, maintain and update the homepage",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Zomato",
+    icon: zomato,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Worked on Merchant Api Gateway built with golang to cater requests and servicability of merchant domain",
+      "Worked on full stack project surrounding Point Of Service toggles and compatability",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -172,7 +158,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Kaustubh proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +166,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Kaustubh does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +174,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Kaustubh optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,12 +184,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CodeSeven.com",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A full stack project to build an online market place for faishon and electronics. Built over the framework of NextJS, it employs restful APIs, redux state manager and MongoDB for database catering. It also houses JWT encryption for user credentials and data housing.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -211,54 +197,54 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: codeseven,
+    source_code_link: "https://github.com/singh-kaustubh/CodeSeven.com",
   },
   {
-    name: "Job IT",
+    name: "CodeSeven App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An extension of the CodeSeven.com made available on the mobile platform by employing the Google's flutter framework to build cross platform compatible applications that cater to the needs of the users. It employs use of firebase for managing the backend handling of the whole app.",
     tags: [
       {
-        name: "react",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "golang",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: codeseven_flutter,
+    source_code_link: "https://github.com/singh-kaustubh/flutter_application_1",
   },
   {
-    name: "Trip Guide",
+    name: "Coldspray Home (IIT RPR )",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive cold spray velocity and temprature predicting interface based over the ML modelling of Ansys data via the pycaret library bundled into a NextJS interface at the frontend built in typescript built over restful api logic and designing from NextJS Material Kit.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "pycaret",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: coldspray,
+    source_code_link: "https://github.com/singh-kaustubh/COLDSPRAY_BTP",
   },
 ];
 
