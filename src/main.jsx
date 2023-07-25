@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import dotenv from "dotenv";
 import App from "./App";
 import "./index.css";
-import dotenv from "dotenv";
 
 dotenv.config({ path: ".env" });
 ReactDOM.createRoot(document.getElementById("root")).render(
