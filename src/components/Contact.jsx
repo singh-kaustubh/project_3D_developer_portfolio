@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const formRef = useRef();
@@ -28,12 +29,23 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if(!form.name.length || !form.email.length || !form.message.length){
+      toast.error("Kindly enter valid details", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      });
+      return;
+    }
     setLoading(true);
-
     emailjs
       .send(
-        process.env.VITE_APP_EMAILJS_SERVICE_ID,
-        process.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        process.env.EMAILJS_SERVICE_ID,
+        process.env.EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Kaustubh Kumar Singh",
@@ -41,12 +53,20 @@ const Contact = () => {
           to_email: "kaustubhsingh38192@gmail.com",
           message: form.message,
         },
-        process.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        process.env.EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          toast.success("Your message has been sent, stay tuned for reply 📩", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
           setForm({
             name: "",
             email: "",
@@ -54,9 +74,16 @@ const Contact = () => {
           });
         },
         (error) => {
-          console.log(error);
           setLoading(false);
-          alert("Ahh, something went wrong. Please try again.");
+          toast.error("Error in email request, kindly contact at +918837760135", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
         }
       );
   };

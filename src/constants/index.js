@@ -45,7 +45,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
@@ -158,27 +158,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Kaustubh proved me wrong.",
-    name: "Sara Lee",
+      "Kaustubh contributed in the MirAIe  spatial solution with trustworthy skills and reliability in his ability of fullstack development throughout his internship",
+    name: "Abhijit Chakrabarty",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://media.licdn.com/dms/image/C5103AQF2ULLKkQ2Nrg/profile-displayphoto-shrink_800_800/0/1555046948713?e=1697068800&v=beta&t=2a75zW14fsWKA87UpoBSARoUqHxVhL_ImHw290DyBUY",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Kaustubh does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "We recommend Kaustubh Kumar Singh for any position that will draw upon his skills and his proven record of development intern. He has been exceptional contributor!",
+    name: "Shweta Gandhi",
+    designation: "Co Founder",
+    company: "NirogGyan",
+    image: "https://media.licdn.com/dms/image/C5103AQG0Zc3pfEorMg/profile-displayphoto-shrink_800_800/0/1583758019449?e=1697068800&v=beta&t=XJs9lzx7EAg9GuKwhmC9GgMy68GVmoVinr0NmaqIE-0",
   },
   {
     testimonial:
-      "After Kaustubh optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Kaustubh has been an ingenious and dedicated student during his project of building the COLDSPRAY Home for IIT Ropar both in the website and the data analysis part.",
+    name: "Dr Harpreet Singh",
+    designation: "Prof.",
+    company: "IIT Ropar",
+    image: "https://media.licdn.com/dms/image/C5103AQG7UbYC8T1kOA/profile-displayphoto-shrink_800_800/0/1523010849289?e=1697068800&v=beta&t=phr75EHN7pGdUStfc_zkxujVF9cyzqBrcA4k_mB1noU",
   },
 ];
 
