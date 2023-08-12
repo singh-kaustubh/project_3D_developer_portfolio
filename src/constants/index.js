@@ -161,7 +161,7 @@ const testimonials = [
       "Kaustubh contributed in the MirAIe  spatial solution with trustworthy skills and reliability in his ability of fullstack development throughout his internship",
     name: "Abhijit Chakrabarty",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Truminds Software Systems",
     image: "https://media.licdn.com/dms/image/C5103AQF2ULLKkQ2Nrg/profile-displayphoto-shrink_800_800/0/1555046948713?e=1697068800&v=beta&t=2a75zW14fsWKA87UpoBSARoUqHxVhL_ImHw290DyBUY",
   },
   {
